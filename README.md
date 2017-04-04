@@ -114,20 +114,20 @@
 ##### MongoDB connection options details
 	
 ```
-		db_url: 'mongodb://[host ip address]:27017/sanocare',
+	db_url: 'mongodb://[host ip address]:27017/sanocare',
 
- 	 	options: {
-   			auth: {
-      			authdb: 'admin'
-  			},
-    		server: {
-      			socketOptions: {
-        			keepAlive: 1
-      			}
-    		},
-    		user: 'sanocare',
-    		pass: 'sanocare123' // .env file can be used for password
-		}
+ 	 options: {
+   		auth: {
+      		authdb: 'admin'
+  		},
+    	server: {
+      		socketOptions: {
+        		keepAlive: 1
+      		}
+    	},
+    	user: 'sanocare',
+    	pass: 'sanocare123' // .env file can be used for password
+	}
 
 
 ```
